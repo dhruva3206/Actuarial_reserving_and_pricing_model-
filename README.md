@@ -13,7 +13,7 @@ Below is the interactive interface built for stakeholders.
 ![Dashboard View](4_Excel_Dashboard/Dashboard_Screenshot.png)
 
 2. Download the Project Files
- [Download the Excel Dashboard (xlsx)](4_Excel_Dashboard/Executive_Dashboard.xlsx)** - *Interact with the pricing calculator and reserve charts.*
+### 📥 [Download the Interactive Excel Dashboard](4_Excel_Dashboard/Executive_Dashboard.xlsx)
  [View the Source Code](1_Python_Reserving/)** - *Explore the Python and SQL logic used to generate these numbers.*
 
 # Key Results
@@ -56,3 +56,4 @@ The base risk factors (Age, BMI, Medical History) were sourced from the *Prudent
 *File Used: `train.csv`
 
 *Note: While the policyholder attributes (Age, BMI) are real, the claim dates and death events were simulated stochastically for the purpose of building and testing these models.
+
