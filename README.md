@@ -40,9 +40,13 @@ This project utilizes specific tools for the tasks they are best suited for:
 
 # Repository Structure
 0_Data: Contains the raw inputs, cleaned datasets, and final CSV outputs.
+
 1_Python_Reserving: Python scripts for the "Smart Simulation" and Chain-Ladder reserve calculations.
+
 2_SQL_Data_Prep: SQL query logic used to aggregate the data for modeling.
+
 3_R_Pricing_Model: R scripts for the GLM and generation of the final mortality curve.
+
 4_Excel_Dashboard: The final Executive Dashboard file and preview image.
 
 # Data Source
@@ -50,4 +54,5 @@ The base risk factors (Age, BMI, Medical History) were sourced from the *Prudent
 
 *Dataset Link: [Prudential Life Insurance Assessment](https://www.kaggle.com/c/prudential-life-insurance-assessment/data)
 *File Used: `train.csv`
+
 *Note: While the policyholder attributes (Age, BMI) are real, the claim dates and death events were simulated stochastically for the purpose of building and testing these models.
