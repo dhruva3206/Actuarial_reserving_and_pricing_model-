@@ -13,7 +13,7 @@ The goal was to build a multi-language pipeline (SQL, Python, R, Excel) that tak
 * **Outcome:** Created a rate card showing risk probability increasing from roughly 1% at age 18 to 18% at age 80.
 
 ## Dashboard Preview
-![Dashboard View](3_Excel_Dashboard/Dashboard_Screenshot.png)
+![Dashboard View](3_Excel_Dashboard/Dashboard_screenshot.png)
 
 ### 📥 [Download the Actuarial Dashboard (xlsx)](3_Excel_Dashboard/Actuarial_Dashboard.xlsx)
 
@@ -48,3 +48,4 @@ The base risk factors (Age, BMI, Medical History) were sourced from the **Pruden
 * **Dataset Link:** [Prudential Life Insurance Assessment](https://www.kaggle.com/c/prudential-life-insurance-assessment/data)
 * **File Used:** `train.csv`
 * **Note:** While the policyholder attributes (Age, BMI) are real, the claim dates and death events were simulated stochastically for the purpose of building and testing these models.
+
